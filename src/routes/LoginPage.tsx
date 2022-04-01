@@ -27,7 +27,7 @@ class LoginPage extends Component {
                             <input type="password" />
                         </div>
                         
-                        <div className="start">START NOW!</div>
+                        <div className="start">LOGIN NOW!</div>
                         <div className="or" />
                         <div className="google">
                             <GoogleLogo />
