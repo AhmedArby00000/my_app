@@ -99,9 +99,18 @@
             background-color: #2666FA;
             border-radius: 5px;
             cursor: pointer;
+            transition: background-color 200ms, transform 200ms;
             align-items: center;
             justify-content: center;
             margin-top: 20px;
+
+            &:hover {
+                background: #0046e1;
+            }
+
+            &:active {
+                transform: scale(0.95);
+            }
         }
 
         .or {
@@ -136,8 +145,17 @@
             cursor: pointer;
             background-color: #FFFFFF;
             box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 500ms, transform 200ms;
             align-items: center;
             justify-content: center;
+
+            &:hover {
+                background: #d6d6d6;
+            }
+
+            &:active {
+                transform: scale(0.97);
+            }
 
             svg {
                 width: 24px;
