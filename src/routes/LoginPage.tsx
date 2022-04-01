@@ -5,7 +5,7 @@ import { ReactComponent as MobileSvg } from "../assets/illustrations/mobile_web.
 import { ReactComponent as GoogleLogo } from "../assets/icons/google_logo.svg";
 
 
-class LoginPage extends Component
+class LoginPage extends Component {
     render() {
         return (
             <div className="container">
