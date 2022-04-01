@@ -1,8 +1,6 @@
 import {Component} from 'react';
 import "../style/login_page.scss";
 
-import Button from '@mui/material/Button';
-
 import { ReactComponent as MobileSvg } from "../assets/illustrations/mobile_web.svg";
 import { ReactComponent as GoogleLogo } from "../assets/icons/google_logo.svg";
 
