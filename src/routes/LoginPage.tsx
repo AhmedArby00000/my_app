@@ -5,7 +5,7 @@ import { ReactComponent as MobileSvg } from "../assets/illustrations/mobile_web.
 import { ReactComponent as GoogleLogo } from "../assets/icons/google_logo.svg";
 
 
-class LoginPage extends Component {
+class LoginPage extends Component
     render() {
         return (
             <div className="container">
@@ -27,7 +27,7 @@ class LoginPage extends Component {
                             <input type="password" />
                         </div>
                         
-                        <div className="start">START NOW!</div>
+                        <div className="start">LOGIN NOW!</div>
                         <div className="or" />
                         <div className="google">
                             <GoogleLogo />
